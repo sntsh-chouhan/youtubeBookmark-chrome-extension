@@ -1,0 +1,89 @@
+.whole{
+    display: flex;
+    flex-direction: column;
+    width: 313px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    margin: 10px;
+    margin-right: 5px;
+}
+.logo P{
+    font-size: 21px;
+    font-weight: 500;
+    margin: 2px;
+    margin-bottom: 4px;
+    font-family: 'Oswald', sans-serif;
+}
+.container {
+  color: #314d3e;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px;
+  align-self: center;
+  margin-left: 5px;
+}
+.title p{
+    margin: 0px;
+    margin-left: auto;
+}
+.textbox {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textbox:focus {
+  outline: 0;
+  border-color: #66afe9;
+}
+
+.bookmarks {
+  margin: 2px 2px;
+  padding: 10px;
+}
+
+.bookmark {
+    width: 280px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #dbdbdb;
+    border-color: #a8a8a8;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+}
+
+.bookmark-title {
+  padding-left: 2px;
+  font-size: medium;
+  font-weight: 500;
+  margin-left: 10px;
+  font-family: "YouTube Sans","Roboto",sans-serif;
+}
+
+.bookmark-controls {
+  flex: auto;
+  text-align: right;
+  margin-right: 10px;
+}
+
+
+.bookmark-controls img {
+  margin: 5px;
+  width: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
